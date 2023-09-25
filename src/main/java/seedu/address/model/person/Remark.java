@@ -7,8 +7,15 @@ import static java.util.Objects.requireNonNull;
  * Guarantees: immutable; is always valid
  */
 public class Remark {
+    public static final String MESSAGE_CONSTRAINTS = "Remarks can take any values, and it should not be blank";
+    public static final String VALIDATION_REGEX = "[^\\s].*";
+
     public final String value;
 
+    /**
+     * Constructor to create a remark instance with the given String remark as value.
+     * @param remark instance with the given String remark as its value.
+     */
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;
@@ -29,5 +36,9 @@ public class Remark {
     @Override
     public int hashCode() {
         return value.hashCode();
+    }
+
+    public static boolean isValidRemark(String test) {
+        return test.matches(VALIDATION_REGEX);
     }
 }
