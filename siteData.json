@@ -136,6 +136,16 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/ariellacallista.md",
+      "title": "Ariella Callista's Project Portfolio Page",
+      "headings": {
+        "project-jabpro": "Project: JABPRO",
+        "overview": "Overview",
+        "summary-of-contributions": "Summary of Contributions"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/johndoe.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
