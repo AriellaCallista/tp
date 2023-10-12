@@ -262,6 +262,6 @@ Action                     | Format, Examples
 **Clear**                  | `clear`
 **Delete**                 | `delete INDEX`<br> e.g., `delete 3`
 **Edit**                   | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`
-**Find**                   | `find KEYWORD [MORE_KEYWORDS]`<br> e.g., `find James Jake`
+**Search**   | `search n/KEYWORD [MORE_KEYWORDS] s/KEYWORD [MORE_KEYWORDS]`<br> e.g., `search n/Alex s/Interviewed`
 **List**                   | `list`
 **Help**                   | `help`
